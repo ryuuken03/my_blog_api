@@ -16,7 +16,7 @@ Project ini adalah RESTful API sederhana menggunakan **Express.js** dan **MongoD
 
 ```bash
 git clone https://github.com/ryuuken03/my_blog_api.git
-cd nama-repo
+cd my_blog_api
 ```
 
 ### 2. Install Dependencies
