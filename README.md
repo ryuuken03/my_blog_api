@@ -15,7 +15,7 @@ Project ini adalah RESTful API sederhana menggunakan **Express.js** dan **MongoD
 ### 1. Clone Repo
 
 ```bash
-git clone https://github.com/username/nama-repo.git
+git clone https://github.com/ryuuken03/my_blog_api.git
 cd nama-repo
 ```
 
@@ -37,12 +37,22 @@ JWT_SECRET=mytokenblogapi111
 
 ### 4. Jalankan MongoDB (Pastikan MongoDB sudah aktif di lokal)
 
-### 5. Import Dummy Data
-
-Jika kamu punya folder `./dump`, jalankan:
+### 5. Jalankan Aplikasi
 
 ```bash
-mongorestore --db=my_blog ./dump/my_blog
+node index.js
+```
+
+> Jika kamu menggunakan `nodemon`:
+
+```bash
+nodemon index.js
+```
+
+Akses API di:
+
+```
+http://localhost:3000
 ```
 
 ---
