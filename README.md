@@ -1,4 +1,4 @@
-# 🧾 API My Blog(Express + MongoDB)
+# API My Blog(Express + MongoDB)
 
 Project ini adalah RESTful API sederhana menggunakan **Express.js** dan **MongoDB**, dengan fitur:
 
@@ -10,7 +10,7 @@ Project ini adalah RESTful API sederhana menggunakan **Express.js** dan **MongoD
 
 ---
 
-## 🚀 Langkah Menjalankan Project di Lokal
+## Langkah Menjalankan Project di Lokal
 
 ### 1. Clone Repo
 
@@ -57,20 +57,20 @@ http://localhost:3000
 
 ---
 
-## 🚪 Testing API
+## Testing API
 
 Gunakan aplikasi Postman, Insomnia, atau curl.
 
-### 🔗 Dokumentasi API Postman
+### Dokumentasi API Postman
 
-📄 [Klik di sini untuk membuka dokumentasi Postman](https://web.postman.co/workspace/My-Workspace~998bec47-036a-4ec3-8f83-e5cbdc26ccdf/collection/919336-d5e1e3ce-86f3-45f3-aae3-3202d78699fd?action=share&source=copy-link&creator=919336)
+[Klik di sini untuk membuka dokumentasi Postman](https://web.postman.co/workspace/My-Workspace~998bec47-036a-4ec3-8f83-e5cbdc26ccdf/collection/919336-d5e1e3ce-86f3-45f3-aae3-3202d78699fd?action=share&source=copy-link&creator=919336)
 
 
 ---
 
-## 📂 Backup & Restore MongoDB
+## Backup & Restore MongoDB
 
-### ✅ Export (Backup) database
+### Export (Backup) database
 
 ```bash
 mongodump --db=my_blog --out=./dump
@@ -78,7 +78,7 @@ mongodump --db=my_blog --out=./dump
 
 > Akan membuat folder: `./dump/myapp`
 
-### ✅ Import (Restore) database
+### Import (Restore) database
 
 ```bash
 mongorestore --db=my_blog ./dump/my_blog
@@ -86,7 +86,7 @@ mongorestore --db=my_blog ./dump/my_blog
 
 ---
 
-## ⚠️ Jika `mongodump` / `mongorestore` tidak dikenali
+## Jika `mongodump` / `mongorestore` tidak dikenali
 
 Pastikan kamu sudah install **MongoDB Database Tools** dari:
 
